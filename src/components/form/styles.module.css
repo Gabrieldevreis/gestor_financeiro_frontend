@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 3.6rem;
+    border-radius: 0.8rem;
+  
+  }
+
+  form label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  form input {
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--color-border);
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+    font-weight: 400;
+    color: var(--color-text);
+    background-color: var(--color-input);
+  }
+
+  form button {
+    padding: 0.8rem;
+    background-color: var(--color-button);
+    border-radius: 0.4rem;
+    border: 1px solid var(--color-border);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color-text-black);
+  }

@@ -1,7 +1,15 @@
+import { Container } from "../../components/container";
+import { Content } from "../../components/content";
+import { Logo } from "../../components/logo";
+import { Form } from "../../components/form";
+
 export function Login() {
   return (
-    <div>
-      <h1>Login</h1>
-    </div>
+    <Container>
+      <Content>
+        <Logo />
+        <Form />
+      </Content>
+    </Container>
   );
 }

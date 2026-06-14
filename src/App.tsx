@@ -1,10 +1,10 @@
-import { Login } from "./pages/login";
+import { MainRouter } from "./routers/MainRouter";
 
 import "./styles/themes.css";
 import "./styles/global.css";
 
 export function App() {
   return (
-    <Login />
+    <MainRouter />
   );
 }

@@ -24,8 +24,22 @@
   }
 
   .sidebar {
+    display: flex;
+    flex-direction: column;
     width: 200px;
     background: var(--color-background);
+    padding: 4rem;
+  }
+
+  ul{
+    display:flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    list-style-type: none;
+  }
+
+  li{
+    font-size: 1.6rem;
   }
 
   .content {
